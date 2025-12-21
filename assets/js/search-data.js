@@ -391,16 +391,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-our-work-in-analyzing-effect-of-multilinguality-in-llm-generated-rewards-for-bandit-systems-was-accepted-at-the-deployable-ai-workshop-aaai-2025",
+          title: 'Our work in analyzing effect of multilinguality in LLM-Generated rewards for bandit systems...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-hybrid-graphs-for-table-text-qa-paper-is-accepted-at-naacl-2025-main-conference",
+          title: 'Our Hybrid Graphs for Table-Text QA paper is accepted at NAACL 2025! (Main...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-joined-as-an-ai-researcher-at-fujitsu-research-india",
+          title: 'Joined as an AI Researcher at Fujitsu Research India!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
