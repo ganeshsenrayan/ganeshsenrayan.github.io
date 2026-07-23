@@ -1,15 +1,43 @@
 ---
 ---
 
+@inproceedings{,
+    title = "Exploratory and Assimilating Reflection: Reflective Recall Cycle for Long Term Memory",
+    author = "Senrayan, Ganesh  and
+      Yamada, Moyuru  and
+      Jindal, Ishan and Purohit, Kiran",
+    booktitle = "SCALE Workshop @ ICML 2026 (Oral, Outstanding Paper Runner-Up)",
+    month = July,
+    year = "2026",
+    url = "https://arxiv.org/abs/2607.17879",
+    abstract = "LLM-based autonomous agents require external memory to overcome their statelessness and limited context window for long-term interaction and dynamic knowledge reasoning. However, existing memory retrieval methods often lack adaptability and sample efficiency, and struggle to retrieve the right mixture of memories from heterogeneous stores. We propose Exploratory-Assimilating Reflection (EAR), a framework for high initial retrieval performance and sample-efficient adaptation. EAR combines two mechanisms: Exploratory Reflection, which performs iterative search to bootstrap retrieval and collect useful experiences for each query, and Assimilating Reflection, which replays these experiences from an Experience Buffer to refine a global reranker more efficiently than methods relying only on immediate rewards. Experiments show that EAR improves retrieval by up to 17.9% over the baseline retriever on two long-term dialogue benchmarks. We also show that EAR is highly sample-efficient and robust to noisy feedback.",
+    selected={true},
+    abbr={SCALE @ ICML 2026}
+}
+
+@inproceedings{software-factory,
+    title = "Beyond Isolated Tasks: A Framework for Evaluating Coding Agents on Sequential Software Evolution",
+    author = "Shastry, KN Ajay and Senrayan, Ganesh  and
+      Satapara, Shrey and Panda, Pranoy and Devaguptapu Chaitanya",
+    booktitle = "Deep Learning for Code Workshop @ ICML 2026",
+    month = July,
+    year = "2026",
+    url = "https://arxiv.org/abs/2604.03035v1",
+    abstract = "Existing datasets for coding agents evaluate performance on isolated, single pull request (PR) tasks in a stateless manner, failing to capture the reality of real-world software development where code changes accumulate, technical debt accrues, and test suites grow over time. To bridge this gap, we introduce an automated coding task generation framework, which helps generate our dataset SWE-STEPS, that evaluates coding agents on long-horizon tasks through two realistic settings mirroring actual developer workflows: Conversational coding with iterative requests, and single-shot Project Requirement document (PRD)-based coding. Unlike existing datasets that evaluate agents on disjointed Pull Requests (PRs), our framework assesses performance across chains of dependent PRs, enabling evaluation of sequential execution, regression verification, and long-term repository health. We discover that widely used isolated PR evaluations yield inflated success rates, w.r.t. our settings - overshooting performance by as much as 20 percentage points - because they ignore the ``spillover'' effects of previous inefficient or buggy code. Furthermore, our analysis reveals that even when agents successfully resolve issues, they degrade repository health by generating code with higher cognitive complexity and technical debt compared to human developers, underscoring the necessity for multidimensional evaluation."
+    selected={true},
+    abbr={DL4C @ ICML 2026}
+}
+
+
 @inproceedings{agarwal-etal-2025-hybrid,
-    title = "Hybrid Graphs for Table-and-Text based Question Answering using {LLM}s",
+    title = "Hybrid Graphs for Table-and-Text based Question Answering using ",
     author = "Agarwal, Ankush  and
       Devaguptapu, Chaitanya  and
       S, Ganesh",
     editor = "Chiruzzo, Luis  and
       Ritter, Alan  and
       Wang, Lu",
-    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    booktitle = "NAACL 2025",
     month = apr,
     year = "2025",
     address = "Albuquerque, New Mexico",
@@ -26,12 +54,12 @@
 @inproceedings{parthasarathy2025multilinguality,
   title="Multilinguality in llm-designed reward functions for restless bandits: Effects on task performance and fairness",
   author="Parthasarathy, Ambreesh and Subramanian, Chandrasekar and Senrayan, Ganesh and Adappanavar, Shreyash and Taneja, Aparna and Ravindran, Balaraman and Tambe, Milind",
-  booktitle="Proceedings of the Deployable AI Workshop held in conjunction with the 39th AAAI Conference on Artificial Intelligence",
+  booktitle="Deployable AI Workshop at AAAI 2025",
   url="https://arxiv.org/pdf/2501.13120",
   month=feb,
   year="2025",
   abstract="Restless Multi-Armed Bandits (RMABs) have been successfully applied to resource allocation problems in a variety of settings, including public health. With the rapid development of powerful large language models (LLMs), they are increasingly used to design reward functions to better match human preferences. Recent work has shown that LLMs can be used to tailor automated allocation decisions to community needs using language prompts. However, this has been studied primarily for English prompts and with a focus on task performance only. This can be an issue since grassroots workers, especially in developing countries like India, prefer to work in local languages, some of which are low-resource. Further, given the nature of the problem, biases along population groups unintended by the user are also undesirable. In this work, we study the effects on both task performance and fairness when the DLM algorithm, a recent work on using LLMs to design reward functions for RMABs, is prompted with non-English language commands. Specifically, we run the model on a synthetic environment for various prompts translated into multiple languages. The prompts themselves vary in complexity. Our results show that the LLM-proposed reward functions are significantly better when prompted in English compared to other languages. We also find that the exact phrasing of the prompt impacts task performance. Further, as prompt complexity increases, performance worsens for all languages; however, it is more robust with English prompts than with lower-resource languages. On the fairness side, we find that low-resource languages and more complex prompts are both highly likely to create unfairness along unintended dimensions.",
   selected={true},
   arxiv={2501.13120},
-  abbr={DAI 2025}
+  abbr={DAI @ AAAI 2025}
 }
