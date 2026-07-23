@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented our work "Exploratory Assimilating Reflection: Reflective Recall Cycle for Long Term Memory in the SCALE Workshop" at ICML 2026, as an oral presentation. Recieved the Outstanding Paper Runner-Up Award.
+Presented our work "Exploratory Assimilating Reflection: Reflective Recall Cycle for Long Term Memory" in the SCALE Workshop at ICML 2026, as an oral presentation. Recieved the Outstanding Paper Runner-Up Award.
